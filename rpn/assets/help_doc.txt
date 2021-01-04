@@ -1,0 +1,34 @@
+Reverse Polish Notation Calculator - Documentation
+Daniel Francis (2020). Version 1.0 (for use with UNIX-based systems)
+
+This document is printed when the user runs `rpn help`.
+
+    Basic commands:
+
+      rpn                          Interactive Mode
+      rpn [expression]             Direct Mode
+      rpn --read FILEPATH          File Mode
+
+    EXAMPLES
+
+      rpn                          => interactive mode
+      rpn 1 2 + 3 + 4 + 5 +        => 15 (in Direct Mode)
+      rpn pi cos                   => -1.0
+      rpn 123 53 + 212 \* --bin    => 0b1001000111000000
+      rpn pi e pow                 => 22.459157718361041134
+      
+    App commands
+
+      export RPN_PRECISION=10      => Change digit precision to 10
+      output=$(rpn 2 2 +)          => Saves in env variable `output` the
+                                      result of `rpn 2 2 +`
+      exit                         => Exits the program
+      help                         => Shows this text
+      operators                    => Shows all available functions,
+                                      operators and constants
+      
+      (In interactive mode)
+      > --hex                      => Switched to: hex
+      > UP_ARROW or DOWN_ARROW     => Scroll input history
+
+For more examples, refer to this project's README

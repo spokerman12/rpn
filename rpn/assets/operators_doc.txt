@@ -1,0 +1,64 @@
+Basically, remember that X plus Y
+becomes `rpn X Y +`.
+Try to do operations from the inside-out.
+
+• Arithmetics
+- +: X plus Y
+- -: X minus Y
+- *: X times Y (Needs escaping in Direct Mode)
+- /: X divided by Y
+- sqrt: Square root of X
+- **: X to the power of Y (Needs escaping in Direct Mode)
+- fact: Factorial of X
+- not: Negation of X
+- !=: X not equals Y
+- %: X modulo Y
+- ++: Increment X by 1
+- --: Decrement X by 1
+
+• Bitwise
+- &: X and Y
+- |: X or Y
+- ^: X XOR Y
+- ~: Not X
+- <<: Shift X Y bits to the left
+- >>: Shift X Y bits to the right (Needs escaping in Direct Mode)
+
+• Boolean
+- &&: X and Y
+- ||: X or Y
+- ^^: X XOR Y
+
+• Arithmetic comparison
+- <: X kesser than Y 
+- <=: X kesser or equal than Y 
+- ==: X equal to Y
+- >: X greater than Y (Needs escaping in Direct Mode)
+- >=: X greater or equal than Y (Needs escaping in Direct Mode)
+
+• Trigonometrics
+- acos: arc Cosine of X
+- asin: arc Sine of X
+- atan: arc Tangent of X
+- cos: Cosine of X
+- cosh: Hyperbolic Cosine of X
+- sin: Sine of X
+- sinh: Hyperbolic Sine of X
+- tanh: Hyperbolic Tangent of X
+
+• Numeric utilities
+- ceil: Ceiling of X
+- floor: Floor of X
+- round: Round float X by Y digits
+- ip: Integer part of X
+- fp: Floating part of X
+- pos: Is X positive?
+- abs: Absolute of X
+- max: Max of [X,Y]
+- min: Min of [X,Y]
+
+• More math functions
+- ln: Base e logarithm of X
+- log: Base 10 logarithm of X
+- log_: Base X logarithm of Y
+- pow: X to the power of Y (some people prefer this one)
